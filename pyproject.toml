@@ -1,0 +1,19 @@
+[project]
+name = "local-hw2"
+version = "0.1.0"
+description = "Can we use UV to run notebook converted to python, locally"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "assertpy>=1.1",
+    "graphviz>=0.20.3",
+    "imutils>=0.5.4",
+    "matplotlib>=3.10.0",
+    "numpy<2",
+    "opencv-python>=4.11.0.86",
+    "pandas>=2.2.3",
+    "pillow>=11.1.0",
+    "scikit-learn>=1.6.1",
+    "tensorflow>=2.14.0",
+    "tqdm>=4.67.1",
+]
